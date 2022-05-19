@@ -1,6 +1,6 @@
-# Basic Sample Hardhat Project
+# Sam Token ERC20
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+An ethereum token based on the ERC-20 token standard using OpenZeppelin Library.
 
 Try running some of the following tasks:
 
