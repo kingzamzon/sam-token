@@ -13,3 +13,21 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## Deploy to Rinkeby
+
+```
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+## Verify Smart Contract
+
+```
+npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS
+```
+
+
+## Rinkeby Address
+
+```
+0xbFda590219fb7D037977CB9d94d728F18c28D0c7
+```

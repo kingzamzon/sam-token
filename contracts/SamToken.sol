@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 /// @dev See Openzeppelin documentation on ERC20
 contract SamToken is ERC20, Ownable {
     /// @notice on token creation send 10 token to sender
-    constructor() ERC20("SamToken", "STK") {
+    constructor() ERC20("SamToken", "STKN") {
         _mint(msg.sender, 10 * 10 ** decimals());
     }
 
